@@ -1,4 +1,4 @@
-from .decent import decent
+from .decent import Decent
 from graphenebase import base58
 
 __all__ = [
@@ -9,7 +9,6 @@ __all__ = [
     "block",
     "blockchain",
     "committee",
-    "competitor",
     "decent",
     "event",
     "eventgroup",
@@ -17,7 +16,6 @@ __all__ = [
     "instance",
     "memo",
     "proposal",
-    "sport",
     "storage",
     "transactionbuilder",
     "utils",

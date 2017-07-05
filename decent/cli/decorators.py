@@ -1,5 +1,5 @@
 import os
-from decent import decent
+from decent import Decent
 from decent.instance import set_shared_decent_instance
 from functools import update_wrapper
 import click

@@ -1,6 +1,6 @@
 import logging
 from events import Events
-from decentapi.websocket import decentWebsocket
+from decentapi.websocket import DecentWebsocket
 from decent.instance import shared_decent_instance
 from decent.account import Account, AccountUpdate
 log = logging.getLogger(__name__)

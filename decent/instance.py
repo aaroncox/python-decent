@@ -1,4 +1,4 @@
-import decent as DCT
+import Decent as DCT
 
 _shared_decent_instance = None
 

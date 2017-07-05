@@ -17,7 +17,7 @@ from pprint import pprint
 from decentbase import transactions, operations
 from decentbase.account import PrivateKey, PublicKey, Address
 from decent.storage import configStorage as config
-from decent.decent import decent
+from decent.decent import Decent
 from decent.block import Block
 from decent.amount import Amount
 from decent.asset import Asset

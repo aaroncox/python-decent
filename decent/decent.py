@@ -4,7 +4,7 @@ import random
 import re
 from datetime import datetime, timedelta
 
-from decentapi.node import decentNodeRPC
+from decentapi.node import DecentNodeRPC
 from decentbase.account import PrivateKey, PublicKey
 from decentbase import transactions, operations
 from .asset import Asset
@@ -75,7 +75,7 @@ class Decent(object):
 
         .. code-block:: python
 
-            from decent import decent
+            from decent import Decent
             decent = decent()
             print(decent.info())
 
