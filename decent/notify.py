@@ -79,7 +79,7 @@ class Notify(Events):
             self.on_account += on_account
 
         # Open the websocket
-        self.websocket = decentWebsocket(
+        self.websocket = DecentWebsocket(
             urls=self.decent.rpc.urls,
             user=self.decent.rpc.user,
             password=self.decent.rpc.password,

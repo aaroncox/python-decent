@@ -1,4 +1,4 @@
-import Decent as DCT
+import decent as dct
 
 _shared_decent_instance = None
 
@@ -10,7 +10,7 @@ def shared_decent_instance():
     """
     global _shared_decent_instance
     if not _shared_decent_instance:
-        _shared_decent_instance = DCT.decent()
+        _shared_decent_instance = dct.decent()
     return _shared_decent_instance
 
 

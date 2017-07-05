@@ -150,7 +150,7 @@ class Decent(object):
         if not rpcpassword and "rpcpassword" in config:
             rpcpassword = config["rpcpassword"]
 
-        self.rpc = decentNodeRPC(node, rpcuser, rpcpassword, **kwargs)
+        self.rpc = DecentNodeRPC(node, rpcuser, rpcpassword, **kwargs)
 
     def finalizeOp(self, ops, account, permission):
         """ This method obtains the required private keys if present in
