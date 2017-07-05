@@ -25,7 +25,7 @@ That private key can be added to the pydecent wallet with:
 
 .. code-block:: python
 
-    from decent import decent
+    from decent import Decent
     DCT = decent()
     # Create a new wallet if not yet exist
     DCT.wallet.create("wallet-decrypt-password")

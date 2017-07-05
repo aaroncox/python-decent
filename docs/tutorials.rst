@@ -14,7 +14,7 @@ executed in the same order as they are added to the transaction.
 .. code-block:: python
 
   from pprint import pprint
-  from decent import decent
+  from decent import Decent
 
   testnet = decent(
       "wss://node.testnet.decent.eu",
@@ -43,7 +43,7 @@ attribute:
 .. code-block:: python
 
   from pprint import pprint
-  from decent import decent
+  from decent import Decent
 
   testnet = decent(
       "wss://node.testnet.decent.eu",
@@ -57,7 +57,7 @@ Simple Sell Script
 
 .. code-block:: python
 
-    from decent import decent
+    from decent import Decent
     from decent.market import Market
     from decent.price import Price
     from decent.amount import Amount
@@ -100,7 +100,7 @@ Sell at a timely rate
 .. code-block:: python
 
     import threading
-    from decent import decent
+    from decent import Decent
     from decent.market import Market
     from decent.price import Price
     from decent.amount import Amount

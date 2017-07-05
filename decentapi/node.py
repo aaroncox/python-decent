@@ -6,10 +6,10 @@ import logging
 log = logging.getLogger(__name__)
 
 
-class decentNodeRPC(GrapheneWebsocketRPC):
+class DecentNodeRPC(GrapheneWebsocketRPC):
 
     def __init__(self, *args, **kwargs):
-        super(decentNodeRPC, self).__init__(*args, **kwargs)
+        super(DecentNodeRPC, self).__init__(*args, **kwargs)
         self.chain_params = self.get_network()
 
     def register_apis(self):
@@ -28,7 +28,7 @@ class decentNodeRPC(GrapheneWebsocketRPC):
         """
         try:
             # Forward call to GrapheneWebsocketRPC and catch+evaluate errors
-            return super(decentNodeRPC, self).rpcexec(payload)
+            return super(DecentNodeRPC, self).rpcexec(payload)
         except exceptions.RPCError as e:
             msg = exceptions.decodeRPCErrorMsg(e).strip()
             if msg == "missing required active authority":

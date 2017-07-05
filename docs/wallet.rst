@@ -8,7 +8,7 @@ A new wallet can be created by using:
 
 .. code-block:: python
 
-   from decent import decent
+   from decent import Decent
    decent = decent()
    decent.wallet.create("supersecret-passphrase")
 
@@ -21,7 +21,7 @@ The wallet can be unlocked for signing using
 
 .. code-block:: python
 
-   from decent import decent
+   from decent import Decent
    decent = decent()
    decent.wallet.unlock("supersecret-passphrase")
 
@@ -34,7 +34,7 @@ A private key can be added by using the
 
 .. code-block:: python
 
-   from decent import decent
+   from decent import Decent
    decent = decent()
    decent.wallet.unlock("supersecret-passphrase")
    decent.wallet.addPrivateKey("5xxxxxxxxxxxxxxxxxxxx")

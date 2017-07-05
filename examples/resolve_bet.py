@@ -1,6 +1,6 @@
 import datetime
 from pprint import pprint
-from decent import decent
+from decent import Decent
 
 DCT = decent(
     # this account creates the proposal

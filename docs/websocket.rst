@@ -1,5 +1,5 @@
 ******************
-decentWebsocket
+DecentWebsocket
 ******************
 
 This class allows subscribe to push notifications from the decent
@@ -8,9 +8,9 @@ node.
 .. code-block:: python
 
     from pprint import pprint
-    from decentapi.websocket import decentWebsocket
+    from decentapi.websocket import DecentWebsocket
 
-    ws = decentWebsocket(
+    ws = DecentWebsocket(
         "wss://node.testnet.decent.eu",
         markets=[["1.3.0", "1.3.172"]],
         accounts=["xeroc"],
@@ -23,7 +23,7 @@ node.
 
 Defintion
 =========
-.. autoclass:: decentapi.websocket.decentWebsocket
+.. autoclass:: decentapi.websocket.DecentWebsocket
     :members:
     :undoc-members:
     :private-members:

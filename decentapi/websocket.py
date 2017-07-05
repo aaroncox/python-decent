@@ -14,7 +14,7 @@ log = logging.getLogger(__name__)
 # logging.basicConfig(level=logging.DEBUG)
 
 
-class decentWebsocket(Events):
+class DecentWebsocket(Events):
     """ Create a websocket connection and request push notifications
 
         :param str urls: Either a single Websocket URL, or a list of URLs
@@ -38,7 +38,7 @@ class decentWebsocket(Events):
 
         .. code-block:: python
 
-            ws = decentWebsocket(
+            ws = DecentWebsocket(
                 "wss://node.testnet.decent.eu",
                 objects=["2.0.x", "2.1.x", "1.3.x"]
             )

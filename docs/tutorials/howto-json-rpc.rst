@@ -18,8 +18,8 @@ allows to read the blockchain.
 
 .. code-block:: python
 
-    from decentapi.node import decentNodeRPC
-    DCT = decentNodeRPC("wss://hostname")
+    from decentapi.node import DecentNodeRPC
+    DCT = DecentNodeRPC("wss://hostname")
     print(DCT.get_account_by_name("init0"))
     print(DCT.get_block(1))
 
@@ -37,6 +37,6 @@ The cli-wallet api, as provided by the ``cli_wallet`` binary, allows to
 
 .. code-block:: python
 
-   from decentapi.wallet import decentWalletRPC
-   rpc = decentWalletRPC("localhost", 8090)
+   from decentapi.wallet import DecentWalletRPC
+   rpc = DecentWalletRPC("localhost", 8090)
    print(rpc.info())

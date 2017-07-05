@@ -15,7 +15,7 @@ You can access those variables like a regular dictionary by using
 
 .. code-block:: python
 
-    from decent import decent
+    from decent import Decent
     decent = decent()
     print(decent.config.items())
 

@@ -51,7 +51,7 @@ Quickstart
 
 .. code-block:: python
 
-   from decent import decent
+   from decent import Decent
    decent = decent()
    decent.wallet.unlock("wallet-passphrase")
    decent.transfer("<to>", "<amount>", "<asset>", ["<memo>"], account="<from>")
