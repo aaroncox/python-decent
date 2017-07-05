@@ -26,7 +26,7 @@ from .utils import formatTime
 log = logging.getLogger(__name__)
 
 
-class decent(object):
+class Decent(object):
     """ Connect to the decent network.
 
         :param str node: Node to connect to *(optional)*
